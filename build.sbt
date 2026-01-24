@@ -8,8 +8,8 @@ gitbucketVersion := "4.35.3"
 scalacOptions += "-deprecation"
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest-funspec"  % "3.2.3" % "test",
-  "org.scalatest" %% "scalatest-funsuite" % "3.2.3" % "test",
+  "org.scalatest" %% "scalatest-funspec"  % "3.2.19" % "test",
+  "org.scalatest" %% "scalatest-funsuite" % "3.2.19" % "test",
   "org.scalatra"  %% "scalatra-scalatest" % ScalatraVersion % "test",
   "org.mockito"   %  "mockito-core"       % "3.9.0" % "test",
 )
