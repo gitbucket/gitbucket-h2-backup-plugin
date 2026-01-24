@@ -1,4 +1,4 @@
-# gitbucket-h2-backup-plugin [![Gitter](https://img.shields.io/gitter/room/gitbucket/gitbucket.js.svg?style=flat-square)](https://gitter.im/gitbucket/gitbucket) [![Travis](https://img.shields.io/travis/gitbucket-plugins/gitbucket-h2-backup-plugin.svg?style=flat-square)](https://travis-ci.org/gitbucket-plugins/gitbucket-h2-backup-plugin)
+# gitbucket-h2-backup-plugin
 
 This plugin enhances [GitBucket](https://github.com/gitbucket/gitbucket) by offering a way to backup/dump the entire H2 database of GitBucket.
 
