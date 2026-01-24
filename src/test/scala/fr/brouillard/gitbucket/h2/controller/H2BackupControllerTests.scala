@@ -145,7 +145,6 @@ class H2BackupControllerObjectTests extends AnyFunSuite {
 
 object H2BackupControllerTests {
   val systemSetting = mock(classOf[SystemSettingsService.SystemSettings])
-  when(systemSetting.sshAddress).thenReturn(None)
 
   def buildContext(isAdmin: Boolean) = {
     val context = mock(classOf[Context])
