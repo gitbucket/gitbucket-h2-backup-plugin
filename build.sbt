@@ -3,7 +3,7 @@ val ScalatraVersion = "2.7.1"
 organization := "fr.brouillard.gitbucket"
 name := "gitbucket-h2-backup-plugin"
 version := "1.9.1"
-scalaVersion := "2.13.5"
+scalaVersion := "2.13.18"
 gitbucketVersion := "4.35.3"
 scalacOptions += "-deprecation"
 
