@@ -1,4 +1,4 @@
-val ScalatraVersion = "3.1.2"
+val ScalatraVersion = "3.2.0"
 
 organization := "fr.brouillard.gitbucket"
 name := "gitbucket-h2-backup-plugin"
