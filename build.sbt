@@ -4,7 +4,7 @@ organization := "fr.brouillard.gitbucket"
 name := "gitbucket-h2-backup-plugin"
 version := "1.9.1"
 scalaVersion := "2.13.18"
-gitbucketVersion := "4.46.1"
+gitbucketVersion := "4.47.0"
 scalacOptions += "-deprecation"
 
 libraryDependencies ++= Seq(
