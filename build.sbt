@@ -11,5 +11,5 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest-funspec"  % "3.2.20" % "test",
   "org.scalatest" %% "scalatest-funsuite" % "3.2.20" % "test",
   "org.scalatra"  %% "scalatra-scalatest-javax" % ScalatraVersion % "test",
-  "org.mockito"   %  "mockito-core"       % "5.23.0" % "test",
+  "org.mockito"   %  "mockito-core"       % "5.24.0" % "test",
 )
