@@ -59,6 +59,7 @@ The api uses token authentication. To generate a token:
 
 Plugin version | GitBucket version
 :--------------|:-----------------
+1.10.x         | >= 4.38.y
 1.9.x          | >= 4.35.y
 1.8.x          | >= 4.32.y
 1.7.x          | >= 4.26.y
