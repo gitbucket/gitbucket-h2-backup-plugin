@@ -77,7 +77,7 @@ class H2BackupController extends ControllerBase with AdminAuthenticator {
   })
 
   // Responds to a form post from a web page
-  post("/database/backup", backupForm)(adminOnly { form: BackupForm =>
+  post("/database/backup", backupForm)(adminOnlyWithForm { form: BackupForm =>
     exportDatabase(new File(form.destFile))
     val msg: String = "H2 Database has been exported to '" + form.destFile + "'."
     flash.update("info", msg)
