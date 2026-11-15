@@ -57,7 +57,7 @@ class H2BackupController extends ControllerBase with AdminAuthenticator {
   }
 
   get("/admin/h2backup")(adminOnly {
-    html.export(flash.get("info"), flash.get("dest").orElse(Some(defaultBackupFileName())))
+    html.export_form(flash.get("info"), flash.get("dest").orElse(Some(defaultBackupFileName())))
   })
 
   // Migrated to POST method. This action will be removed in the future version.
