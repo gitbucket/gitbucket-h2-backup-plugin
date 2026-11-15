@@ -84,6 +84,9 @@ sbt clean assembly
 
 ## Release Notes
 
+### 1.10.0
+- compatibility with GitBucket 4.38.x
+
 ### 1.9.1
 - remove backup api at GET /database/backup
 - change method from GET to POST on /api/v3/plugins/database/backup
